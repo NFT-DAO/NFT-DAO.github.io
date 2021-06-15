@@ -1,1 +1,1 @@
-# nft-dao.github.io
+# NFT-DAO.github.io
