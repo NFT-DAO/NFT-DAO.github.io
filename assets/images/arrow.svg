@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <defs>
+    <filter id="Ellipse_2" x="0" y="0" width="128" height="128" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_185" data-name="Group 185" transform="translate(-827.322 -644.322)">
+    <circle id="Ellipse_1" data-name="Ellipse 1" cx="37" cy="37" r="37" transform="translate(854.322 671.322)" fill="#fff"/>
+    <g transform="matrix(1, 0, 0, 1, 827.32, 644.32)" filter="url(#Ellipse_2)">
+      <circle id="Ellipse_2-2" data-name="Ellipse 2" cx="34" cy="34" r="34" transform="translate(30 30)" fill="#00061d"/>
+    </g>
+    <g id="Group_5" data-name="Group 5" transform="translate(881.479 715.082) rotate(-90)">
+      <path id="Path_477" data-name="Path 477" d="M0,0,7.394,7.394,14.788,0" transform="translate(0 12.291)" fill="none" stroke="#fff" stroke-linejoin="bevel" stroke-width="2"/>
+      <line id="Line_2" data-name="Line 2" y1="18.7" transform="translate(7.394 0)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
