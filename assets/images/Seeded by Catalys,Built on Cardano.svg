@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="143" viewBox="0 0 84 143">
+  <defs>
+    <filter id="Seeded_by_Catalys_Built_on_Cardano" x="0" y="0" width="84" height="143" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Seeded_by_Catalys_Built_on_Cardano)">
+    <text id="Seeded_by_Catalys_Built_on_Cardano-2" data-name="Seeded by Catalys,
+Built on Cardano" transform="translate(38 113) rotate(-90)" fill="#fff" font-size="8" font-family="MontserratAlternates-Bold, Montserrat Alternates" font-weight="700" letter-spacing="0.01em"><tspan x="0" y="0">Seeded by Catalys,</tspan><tspan x="0" y="14">Built on Cardano</tspan></text>
+  </g>
+</svg>

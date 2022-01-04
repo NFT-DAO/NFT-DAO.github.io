@@ -12,9 +12,18 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+.content-mobile {
+  display: none;
+}
 @media only screen and (max-width: 575px) {
   body {
     font-size: 15px;
+  }
+  .content-mobile {
+    display: block;
+  }
+  .content-web {
+    display: none;
   }
 }
 
@@ -8919,6 +8928,7 @@ a:active {
   color: #00061c;
   opacity: 1;
   font-family: Montserrat Alternates;
+  transition: 0.3s;
 }
 .extra {
   color: white !important;
@@ -9041,6 +9051,14 @@ a:active {
   font: normal normal normal 16px/44px Montserrat Alternates;
   letter-spacing: 0px;
 }
+.card-title-mobile {
+  font: normal / Montserrat Alternates;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font: normal normal normal 10px/44px Montserrat Alternates;
+  letter-spacing: 0px;
+}
 .card-text {
   font: normal bold 18px/30px Montserrat Alternates;
   letter-spacing: 0;
@@ -9052,7 +9070,7 @@ a:active {
   margin-bottom: 15px;
 }
 .card-text-mobile {
-  font: normal bold 18px/30px Montserrat Alternates;
+  font: normal bold 10px/30px Montserrat Alternates;
   letter-spacing: 0;
   text-align: left;
   font: normal normal bold 18px/30px Montserrat Alternates;
@@ -9150,6 +9168,9 @@ a:active {
 .wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.wrapper-fund5 {
+  padding-top: 100px;
 }
 .wrapper-mobile {
   padding-top: 50px;
@@ -9351,10 +9372,22 @@ a:active {
   padding-left: 2rem;
   background-position-y: bottom;
 }
-.test1:hover{
-  fill: white;
-  opacity: 1;
+
+.test1 {
+  transition: 0.3s;
 }
+
+svg > path.test1:hover {
+  fill: white;
+}
+
+/* HERE ARE SOME ANIMATIONS  */
+
+.costume-btn:hover {
+  background-color: #7673fe;
+  color: white;
+}
+
 .seeded {
   font: normal bold 18px/30px Montserrat Alternates;
   text-shadow: 0px 0px 20px;
@@ -9419,12 +9452,13 @@ a:active {
   filter: drop-shadow(0px 0px 5px #ffffff);
 }
 /* .linkedin-bg-mobile {
-  background-image: url('../images/LinkdeinIconFixed.svg');
+  background-image: url('../images/Linkedin.svg');
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
   -webkit-filter: drop-shadow(0px 0px 5px #ffffff);
   filter: drop-shadow(0px 0px 5px #ffffff);
+  z-index: 999999999999999999999999999999999999999999;
 } */
 
 /* .fifth-anim {
@@ -9620,6 +9654,82 @@ a:active {
 .logo-img {
   width: 77px;
 }
-#test1:hover{
+#test1:hover {
   fill: white;
+}
+.test1000 {
+  position: relative;
+}
+.test2000 {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+}
+.explore {
+  font: normal 900 24px / Montserrat Alternates;
+  font: normal normal 500 24px/40px Montserrat Alternates;
+  color: #15fdfd;
+  display: inline;
+}
+
+.news-mobile {
+  font: normal 900 24px / Montserrat Alternates;
+  font: normal normal 500 17px/40px Montserrat Alternates;
+  color: #15fdfd;
+  display: inline;
+}
+.hrtag {
+  border: 2px solid #fff;
+}
+.arrow-class {
+  margin-top: -35px;
+}
+.arrow-class-mobile {
+  margin-top: -8px;
+}
+.rowflexed {
+  display: flex;
+  flex-direction: column;
+}
+.fund-learn-more {
+  letter-spacing: 0;
+  font: normal 900 24px / Montserrat Alternates;
+  font: normal normal 500 18px/40px Montserrat Alternates;
+  color: #15fdfd;
+  margin-left: 40px;
+}
+.fund-learn-more:hover {
+  font: normal bold 18px/32px Montserrat Alternates;
+  text-align: left;
+  font: normal normal bold 18px/32px Montserrat Alternates;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 18px;
+}
+.fund-learn-more-costum {
+  letter-spacing: 0;
+  font: normal 900 24px / Montserrat Alternates;
+  font: normal normal 500 18px/40px Montserrat Alternates;
+  color: #15fdfd;
+}
+.badge-funds {
+  position: absolute;
+  background: #15fdfd 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #15fdfd;
+  border-radius: 16px;
+  opacity: 1;
+  font: normal 900 19px/25px Montserrat Alternates;
+  letter-spacing: 0;
+  color: #192242;
+  text-align: center;
+  font: normal normal 900 21px/25px Montserrat Alternates;
+  letter-spacing: 0px;
+  opacity: 1;
+  left: 20%;
+  margin-top: -4%;
+  z-index: 9;
+}
+.changable-header {
+  margin-bottom: 75px;
 }
