@@ -9373,12 +9373,9 @@ a:active {
   background-position-y: bottom;
 }
 
-.test1 {
-  transition: 0.3s;
-}
-
-svg > path.test1:hover {
+.test1:hover {
   fill: white;
+  opacity: 1;
 }
 
 /* HERE ARE SOME ANIMATIONS  */
