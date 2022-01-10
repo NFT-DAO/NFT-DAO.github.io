@@ -146,7 +146,7 @@ h4 a:hover {
   opacity: 1;
 }
 .section-title .title-main-mobile {
-  font-size: 27px !important;
+  font-size: 18px !important;
   font-weight: 700;
   line-height: 0.9em;
   margin-bottom: 8px;
@@ -9349,6 +9349,9 @@ a:active {
   color: rgb(255, 255, 255, 0.3);
 }
 .section-header-mobile {
+  display: flex;
+  align-items: center;
+  
   text-align: left;
   font: normal normal 900 12px Montserrat Alternates;
   letter-spacing: 1.16px;
@@ -9360,9 +9363,19 @@ a:active {
 .fund4 {
   margin-bottom: 166px;
 }
+.fund4-costume{
+  margin-bottom: 5rem;
+}
 .fund5 {
   margin-bottom: 166px;
 }
+.fund4-mobile {
+  margin-bottom: 5rem;
+}
+.fund5-mobile {
+  margin-bottom: 5rem;
+}
+
 .hero-content-area {
   position: relative;
 }
