@@ -5074,7 +5074,6 @@ a:active {
   color: #e4e4e4;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -9729,4 +9728,7 @@ a:active {
 }
 .changable-header {
   margin-bottom: 75px;
+}
+.students {
+  padding-left: 0;
 }
