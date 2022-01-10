@@ -8950,6 +8950,10 @@ a:active {
   color: #00061c;
   opacity: 1;
 }
+.costume-btn-submit:hover{
+  background: #fff 0% 0% no-repeat padding-box;
+  color: #000 !important;
+}
 .about-box {
   box-shadow: 0px 0px 20px #fff;
   border: 2px solid #fff;
