@@ -2517,6 +2517,7 @@ body:not(.buddypress) .article-content table th {
 .topbutton:hover {
   color: white !important;
   opacity: 0.9;
+  transform: translateY(-5%);
 }
 .topbutton:focus {
   color: white !important;
@@ -8950,7 +8951,7 @@ a:active {
   color: #00061c;
   opacity: 1;
 }
-.costume-btn-submit:hover{
+.costume-btn-submit:hover {
   background: #fff 0% 0% no-repeat padding-box;
   color: #000 !important;
 }
@@ -9351,7 +9352,7 @@ a:active {
 .section-header-mobile {
   display: flex;
   align-items: center;
-  
+
   text-align: left;
   font: normal normal 900 12px Montserrat Alternates;
   letter-spacing: 1.16px;
@@ -9363,7 +9364,7 @@ a:active {
 .fund4 {
   margin-bottom: 166px;
 }
-.fund4-costume{
+.fund4-costume {
   margin-bottom: 5rem;
 }
 .fund5 {
@@ -9749,9 +9750,9 @@ a:active {
 .students {
   padding-left: 0;
 }
-.row-modified{
+.row-modified {
   margin-top: -14px !important;
 }
-.row-modified-second{
+.row-modified-second {
   margin-top: -14px !important;
 }
