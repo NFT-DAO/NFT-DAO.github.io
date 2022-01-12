@@ -2496,7 +2496,6 @@ body:not(.buddypress) .article-content table th {
   display: block;
   height: 200px;
   line-height: 60px;
-  position: fixed;
   left: 20px;
   width: 120px;
   -webkit-transition: all 0.3s;
@@ -2504,6 +2503,8 @@ body:not(.buddypress) .article-content table th {
   z-index: 999;
   background-image: url('../images/backtotop.svg');
   background-repeat: no-repeat;
+  margin-top: -28vh;
+  margin-left: 2vh;
 }
 .topbutton.btn-show {
   opacity: 1;
