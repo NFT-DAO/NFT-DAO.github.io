@@ -21,6 +21,7 @@ body {
   }
   .content-mobile {
     display: block;
+    overflow-x: hidden;
   }
   .content-web {
     display: none;
