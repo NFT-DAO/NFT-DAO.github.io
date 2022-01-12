@@ -3733,22 +3733,22 @@ label {
 }
 
 ::-webkit-input-placeholder {
-  color: #2a2a2a;
-  opacity: 0.6;
+  color: white;
+
 }
 
 :-moz-placeholder {
-  color: #2a2a2a;
-  opacity: 0.6;
+  color: white;
+
 }
 
 ::-moz-placeholder {
-  color: #2a2a2a;
-  opacity: 0.6;
+  color: white;
+
 }
 
 :-ms-input-placeholder {
-  color: #2a2a2a;
+  color: white;
 }
 
 .form-group {
@@ -8634,15 +8634,15 @@ a:active {
 }
 .contact-block .contact-form-area ::-webkit-input-placeholder {
   color: white;
-  opacity: 0.35;
+ 
 }
 .contact-block .contact-form-area :-moz-placeholder {
   color: white;
-  opacity: 0.35;
+ 
 }
 .contact-block .contact-form-area ::-moz-placeholder {
   color: white;
-  opacity: 0.35;
+ 
 }
 .contact-block .contact-form-area :-ms-input-placeholder {
   color: white;
