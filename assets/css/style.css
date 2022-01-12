@@ -4224,6 +4224,9 @@ a:active {
     opacity: 1;
     visibility: visible;
   }
+  .no-section > a:active {
+    display: none;
+  }
   .nav-link {
     height: 80px;
     display: flex !important;
@@ -4241,6 +4244,7 @@ a:active {
     background-repeat: no-repeat;
     background-position-y: -13px;
   }
+
   .mainmenu > li > a::before {
     content: ' ';
   }
