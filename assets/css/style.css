@@ -9180,6 +9180,13 @@ a:active {
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.wrapper-funds {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.wrapper-funds-costume {
+  padding-bottom: 50px;
+}
 /* .icon-holder {
   box-shadow: 0px 0px 20px #fff;
   border: 1px solid #fff;
@@ -9385,7 +9392,7 @@ a:active {
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: right;
-  height: 50vh;
+  /* height: 50vh; */
   padding-left: 2rem;
   background-position-y: bottom;
 }
