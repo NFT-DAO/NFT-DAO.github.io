@@ -19,6 +19,9 @@ body {
   body {
     font-size: 15px;
   }
+  #scroll-top {
+    display: none;
+  }
   .content-mobile {
     display: block;
     overflow-x: hidden;
