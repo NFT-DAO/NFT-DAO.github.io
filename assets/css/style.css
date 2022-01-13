@@ -9479,6 +9479,9 @@ a:active {
 .margined-cols {
   margin-right: 2rem;
 }
+.margined-cols-mobile {
+  margin-right: 1rem;
+}
 .margined-cols-fund5 {
   margin-bottom: 3rem;
 }
