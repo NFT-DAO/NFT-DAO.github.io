@@ -9863,7 +9863,13 @@ a:active {
   position: absolute;
   border: 1px solid #15fdfd;
   border-radius: 5px;
-  width: 30vh;
+  width: 35vh;
   bottom: 15px;
-  left: 137px;
+  left: 130px;
+}
+.mobile-fund-hr-margines-1 {
+  margin-bottom: 1rem;
+}
+.mobile-fund-hr-margines-2 {
+  margin-top: 6rem;
 }
