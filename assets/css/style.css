@@ -9842,9 +9842,9 @@ a:active {
     transform: scale(1);
   }
   .item {
-    display: flex;
-    min-height: 200px;
-    min-width: 200px;
+    display: inline-block;
+    min-height: 250px;
+    min-width: 400px;
     margin: 2em 1em;
   }
   @media screen and (max-width: 500px) {
