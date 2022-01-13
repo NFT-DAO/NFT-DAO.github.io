@@ -9834,6 +9834,8 @@ a:active {
     will-change: transform;
     user-select: none;
     cursor: pointer;
+    display: flex;
+    height: 100vh;
   }
   .items.active {
     background: rgba(255, 255, 255, 0.3);
@@ -9843,14 +9845,13 @@ a:active {
   }
   .item {
     display: inline-block;
-    min-height: 250px;
-    min-width: 400px;
-    margin: 2em 1em;
+
+    margin-top: 30px;
   }
   @media screen and (max-width: 500px) {
     .item {
-      min-height: 200px;
-      min-width: 200px;
+  
+      
     }
   }
 }
