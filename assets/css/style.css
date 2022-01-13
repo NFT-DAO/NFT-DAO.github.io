@@ -9854,3 +9854,6 @@ a:active {
     }
   }
 }
+.white-space-manager {
+  white-space: initial;
+}
