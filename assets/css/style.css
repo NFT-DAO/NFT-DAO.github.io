@@ -5229,6 +5229,23 @@ a:active {
   overflow: hidden;
   display: block;
   margin-bottom: 0px;
+}
+.service-item-mobile-funds {
+  border: 5px solid #fff;
+  background: #00061d 0% 0% no-repeat padding-box;
+  border: 5px solid #ffffff;
+  border-radius: 0px 104px;
+  opacity: 1;
+  position: relative;
+  padding: 15px 15px 15px 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  margin-bottom: 20px;
+  -webkit-transition: all 0.25s linear 0ms;
+  transition: all 0.25s linear 0ms;
+  overflow: hidden;
+  display: block;
+  margin-bottom: 0px;
   width: 266px;
 }
 @media (min-width: 768px) {
