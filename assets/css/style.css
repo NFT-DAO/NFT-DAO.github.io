@@ -9850,11 +9850,20 @@ a:active {
   }
   @media screen and (max-width: 500px) {
     .item {
-  
-      
     }
   }
 }
 .white-space-manager {
   white-space: initial;
+}
+.fund-area {
+  position: relative;
+}
+.mobile-fund-hr {
+  position: absolute;
+  border: 1px solid #15fdfd;
+  border-radius: 5px;
+  width: 30vh;
+  bottom: 15px;
+  left: 137px;
 }
