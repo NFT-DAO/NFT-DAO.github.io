@@ -9228,7 +9228,7 @@ a:active {
   border-radius: 0px 50px;
   opacity: 1;
   position: relative;
-  padding: 15px 15px 15px 0;
+  padding: 15px 15px 15px 15px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   margin-bottom: 20px;
