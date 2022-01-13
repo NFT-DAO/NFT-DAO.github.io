@@ -9796,6 +9796,9 @@ a:active {
 .outer-border-but-highted-mobile {
   height: auto;
 }
+.outer-border-but-highted-mobile-funds {
+  height: 100vh;
+}
 .grid-container {
   background: #efefef;
   font-family: 'Rubik', sans-serif;
@@ -9852,7 +9855,7 @@ a:active {
     user-select: none;
     cursor: pointer;
     display: flex;
-    height: 100vh;
+    height: 128vh;
   }
   .items.active {
     background: rgba(255, 255, 255, 0.3);
