@@ -9893,3 +9893,6 @@ a:active {
 .mobile-fund-hr-margines-2 {
   margin-top: 6rem;
 }
+#completed-projects-mobile{
+  background-image: none;
+}
